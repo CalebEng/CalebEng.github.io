@@ -20,7 +20,9 @@ function App() {
         The main difficulty I encountered was in setting up the project. Once I had set up the project with the npx command, I had 8 vulnerabilities.
         I tried to run the reccomended fix options but that ended with over 156 vulnerabilities. With no other option I had to start over again and see what else I could try.
         Upon investigation, it seemed that the vulnerabilities were due to problems with specific versions of the libraries installed.
-        Installing specific verisons of the libraries helped to fix some of these problems.
+        Installing specific verisons of the libraries helped to fix some of these problems. In addition, getting the website deployed to github pages had some probelms.
+        At first the webpage wouldn't show up even though the build was successful. It turned out that because my github repo was named caleb.eng.github.io,
+        my homepage path was incorrect in the package.json. Modiying this path fixed the problem with deployment.
       </div>
       </header>
     </div>
